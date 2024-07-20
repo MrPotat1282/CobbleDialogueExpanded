@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "cobbledialogueexpanded",
+  "version": "${version}",
+
+  "name": "CobbleDialogueExpanded",
+  "description": "",
+  "authors": [],
+  "contact": {},
+
+  "license": "MIT",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "org.senessax.cobbledialogueexpanded.fabric.CobbleDialogueExpandedFabric"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.22",
+    "minecraft": ">=1.20.1"
+  }
+}
